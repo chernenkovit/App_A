@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_menu_sort_history_by_date"
+        android:checkable="true"
+        android:checked="false"
+        android:showAsAction="ifRoom"
+        android:title="@string/sort_history_by_date"
+        android:visible="true"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/action_menu_sort_history_by_status"
+        android:checkable="true"
+        android:checked="false"
+        android:showAsAction="ifRoom"
+        android:title="@string/sort_history_by_status"
+        android:visible="true"
+        tools:ignore="AppCompatResource" />
+
+</menu>
